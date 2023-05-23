@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+  background-color: white;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+.navbar .hamburger-menu {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(248, 26, 92);
+  font-family: "Rubik", sans-serif;
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  border: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  font-family: "Rubik", sans-serif;
+}
+/* Comman Styles */
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+  transition: background-color 0.5s ease-in;
+}
+h2 {
+  font-size: 2rem !important;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+  color: red;
+}
+.btn1:hover {
+  background-color: rgb(128, 1, 39);
+}
+.card {
+  transition: box-shadow 0.5s ease-in;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* Hero */
+.hero {
+  background: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-column {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #3f9e98;
+}
+
+/* New */
+
+.new img {
+  width: 80px;
+}
+
+/* Product */
+.product img {
+  width: 100%;
+}
+.product h4 {
+  font-size: 0.9rem;
+}
+
+/* Apple */
+
+.apple {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://images.unsplash.com/photo-1535486043722-23ceedac1f02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1630&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 80vh;
+  width: 100%;
+}
+
+.apple h2 {
+  font-family: "Lobster", cursive;
+  font-size: 4rem !important;
+}
+.apple h3 {
+  font-size: 2.5rem;
+}
+
+/* Contact */
+.contact h4 {
+  font-size: 1rem;
+}
+
+/* News */
+.news {
+  background-color: black;
+  color: white;
+}
+.news input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news input::placeholder {
+  color: white;
+}
+.btn-news {
+  height: 45px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid white;
+  margin-left: -10px;
+  font-weight: 600;
+}
+
+.news p {
+  margin: 0;
+}
+.news i {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .apple h2 {
+    font-size: 2rem !important;
+  }
+  .apple h3 {
+    font-size: 1.5rem;
+  }
+}
